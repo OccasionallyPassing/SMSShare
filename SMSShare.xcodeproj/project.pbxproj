@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1809C2A71E5E784300D8E911 /* SMSShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1809C2A61E5E784300D8E911 /* SMSShare.m */; };
+		1809C2B31E5E842E00D8E911 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1809C2B21E5E842E00D8E911 /* SecondViewController.m */; };
+		18D11D8D1E5D8B9A0070C8D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D11D8C1E5D8B9A0070C8D0 /* main.m */; };
+		18D11D901E5D8B9A0070C8D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D11D8F1E5D8B9A0070C8D0 /* AppDelegate.m */; };
+		18D11D931E5D8B9A0070C8D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D11D921E5D8B9A0070C8D0 /* ViewController.m */; };
+		18D11D961E5D8B9A0070C8D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D11D941E5D8B9A0070C8D0 /* Main.storyboard */; };
+		18D11D981E5D8B9A0070C8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D11D971E5D8B9A0070C8D0 /* Assets.xcassets */; };
+		18D11D9B1E5D8B9A0070C8D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D11D991E5D8B9A0070C8D0 /* LaunchScreen.storyboard */; };
+		18D11DA61E5D8B9A0070C8D0 /* SMSShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D11DA51E5D8B9A0070C8D0 /* SMSShareTests.m */; };
+		18D11DB11E5D8B9B0070C8D0 /* SMSShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D11DB01E5D8B9B0070C8D0 /* SMSShareUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D11DA21E5D8B9A0070C8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D11D801E5D8B9A0070C8D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D11D871E5D8B9A0070C8D0;
+			remoteInfo = SMSShare;
+		};
+		18D11DAD1E5D8B9B0070C8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D11D801E5D8B9A0070C8D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D11D871E5D8B9A0070C8D0;
+			remoteInfo = SMSShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1809C2A51E5E784300D8E911 /* SMSShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSShare.h; sourceTree = "<group>"; };
+		1809C2A61E5E784300D8E911 /* SMSShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSShare.m; sourceTree = "<group>"; };
+		1809C2B11E5E842E00D8E911 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1809C2B21E5E842E00D8E911 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		18D11D881E5D8B9A0070C8D0 /* SMSShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D11D8C1E5D8B9A0070C8D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D11D8E1E5D8B9A0070C8D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D11D8F1E5D8B9A0070C8D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D11D911E5D8B9A0070C8D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D11D921E5D8B9A0070C8D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D11D951E5D8B9A0070C8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D11D971E5D8B9A0070C8D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D11D9A1E5D8B9A0070C8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D11D9C1E5D8B9A0070C8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D11DA11E5D8B9A0070C8D0 /* SMSShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D11DA51E5D8B9A0070C8D0 /* SMSShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSShareTests.m; sourceTree = "<group>"; };
+		18D11DA71E5D8B9B0070C8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D11DAC1E5D8B9B0070C8D0 /* SMSShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D11DB01E5D8B9B0070C8D0 /* SMSShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSShareUITests.m; sourceTree = "<group>"; };
+		18D11DB21E5D8B9B0070C8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D11D851E5D8B9A0070C8D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D11D9E1E5D8B9A0070C8D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D11DA91E5D8B9B0070C8D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D11D7F1E5D8B9A0070C8D0 = {
+			isa = PBXGroup;
+			children = (
+				18D11D8A1E5D8B9A0070C8D0 /* SMSShare */,
+				18D11DA41E5D8B9A0070C8D0 /* SMSShareTests */,
+				18D11DAF1E5D8B9B0070C8D0 /* SMSShareUITests */,
+				18D11D891E5D8B9A0070C8D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D11D891E5D8B9A0070C8D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D11D881E5D8B9A0070C8D0 /* SMSShare.app */,
+				18D11DA11E5D8B9A0070C8D0 /* SMSShareTests.xctest */,
+				18D11DAC1E5D8B9B0070C8D0 /* SMSShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D11D8A1E5D8B9A0070C8D0 /* SMSShare */ = {
+			isa = PBXGroup;
+			children = (
+				18D11D8E1E5D8B9A0070C8D0 /* AppDelegate.h */,
+				18D11D8F1E5D8B9A0070C8D0 /* AppDelegate.m */,
+				18D11D911E5D8B9A0070C8D0 /* ViewController.h */,
+				18D11D921E5D8B9A0070C8D0 /* ViewController.m */,
+				1809C2B11E5E842E00D8E911 /* SecondViewController.h */,
+				1809C2B21E5E842E00D8E911 /* SecondViewController.m */,
+				1809C2A51E5E784300D8E911 /* SMSShare.h */,
+				1809C2A61E5E784300D8E911 /* SMSShare.m */,
+				18D11D941E5D8B9A0070C8D0 /* Main.storyboard */,
+				18D11D971E5D8B9A0070C8D0 /* Assets.xcassets */,
+				18D11D991E5D8B9A0070C8D0 /* LaunchScreen.storyboard */,
+				18D11D9C1E5D8B9A0070C8D0 /* Info.plist */,
+				18D11D8B1E5D8B9A0070C8D0 /* Supporting Files */,
+			);
+			path = SMSShare;
+			sourceTree = "<group>";
+		};
+		18D11D8B1E5D8B9A0070C8D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D11D8C1E5D8B9A0070C8D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D11DA41E5D8B9A0070C8D0 /* SMSShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D11DA51E5D8B9A0070C8D0 /* SMSShareTests.m */,
+				18D11DA71E5D8B9B0070C8D0 /* Info.plist */,
+			);
+			path = SMSShareTests;
+			sourceTree = "<group>";
+		};
+		18D11DAF1E5D8B9B0070C8D0 /* SMSShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D11DB01E5D8B9B0070C8D0 /* SMSShareUITests.m */,
+				18D11DB21E5D8B9B0070C8D0 /* Info.plist */,
+			);
+			path = SMSShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D11D871E5D8B9A0070C8D0 /* SMSShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D11DB51E5D8B9B0070C8D0 /* Build configuration list for PBXNativeTarget "SMSShare" */;
+			buildPhases = (
+				18D11D841E5D8B9A0070C8D0 /* Sources */,
+				18D11D851E5D8B9A0070C8D0 /* Frameworks */,
+				18D11D861E5D8B9A0070C8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSShare;
+			productName = SMSShare;
+			productReference = 18D11D881E5D8B9A0070C8D0 /* SMSShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D11DA01E5D8B9A0070C8D0 /* SMSShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D11DB81E5D8B9B0070C8D0 /* Build configuration list for PBXNativeTarget "SMSShareTests" */;
+			buildPhases = (
+				18D11D9D1E5D8B9A0070C8D0 /* Sources */,
+				18D11D9E1E5D8B9A0070C8D0 /* Frameworks */,
+				18D11D9F1E5D8B9A0070C8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D11DA31E5D8B9A0070C8D0 /* PBXTargetDependency */,
+			);
+			name = SMSShareTests;
+			productName = SMSShareTests;
+			productReference = 18D11DA11E5D8B9A0070C8D0 /* SMSShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D11DAB1E5D8B9B0070C8D0 /* SMSShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D11DBB1E5D8B9B0070C8D0 /* Build configuration list for PBXNativeTarget "SMSShareUITests" */;
+			buildPhases = (
+				18D11DA81E5D8B9B0070C8D0 /* Sources */,
+				18D11DA91E5D8B9B0070C8D0 /* Frameworks */,
+				18D11DAA1E5D8B9B0070C8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D11DAE1E5D8B9B0070C8D0 /* PBXTargetDependency */,
+			);
+			name = SMSShareUITests;
+			productName = SMSShareUITests;
+			productReference = 18D11DAC1E5D8B9B0070C8D0 /* SMSShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D11D801E5D8B9A0070C8D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Wang;
+				TargetAttributes = {
+					18D11D871E5D8B9A0070C8D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z4Y3TGXRWP;
+						ProvisioningStyle = Automatic;
+					};
+					18D11DA01E5D8B9A0070C8D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18D11D871E5D8B9A0070C8D0;
+					};
+					18D11DAB1E5D8B9B0070C8D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18D11D871E5D8B9A0070C8D0;
+					};
+				};
+			};
+			buildConfigurationList = 18D11D831E5D8B9A0070C8D0 /* Build configuration list for PBXProject "SMSShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D11D7F1E5D8B9A0070C8D0;
+			productRefGroup = 18D11D891E5D8B9A0070C8D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D11D871E5D8B9A0070C8D0 /* SMSShare */,
+				18D11DA01E5D8B9A0070C8D0 /* SMSShareTests */,
+				18D11DAB1E5D8B9B0070C8D0 /* SMSShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D11D861E5D8B9A0070C8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D11D9B1E5D8B9A0070C8D0 /* LaunchScreen.storyboard in Resources */,
+				18D11D981E5D8B9A0070C8D0 /* Assets.xcassets in Resources */,
+				18D11D961E5D8B9A0070C8D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D11D9F1E5D8B9A0070C8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D11DAA1E5D8B9B0070C8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D11D841E5D8B9A0070C8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1809C2B31E5E842E00D8E911 /* SecondViewController.m in Sources */,
+				18D11D931E5D8B9A0070C8D0 /* ViewController.m in Sources */,
+				18D11D901E5D8B9A0070C8D0 /* AppDelegate.m in Sources */,
+				18D11D8D1E5D8B9A0070C8D0 /* main.m in Sources */,
+				1809C2A71E5E784300D8E911 /* SMSShare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D11D9D1E5D8B9A0070C8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D11DA61E5D8B9A0070C8D0 /* SMSShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D11DA81E5D8B9B0070C8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D11DB11E5D8B9B0070C8D0 /* SMSShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D11DA31E5D8B9A0070C8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D11D871E5D8B9A0070C8D0 /* SMSShare */;
+			targetProxy = 18D11DA21E5D8B9A0070C8D0 /* PBXContainerItemProxy */;
+		};
+		18D11DAE1E5D8B9B0070C8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D11D871E5D8B9A0070C8D0 /* SMSShare */;
+			targetProxy = 18D11DAD1E5D8B9B0070C8D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D11D941E5D8B9A0070C8D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D11D951E5D8B9A0070C8D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D11D991E5D8B9A0070C8D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D11D9A1E5D8B9A0070C8D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D11DB31E5D8B9B0070C8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D11DB41E5D8B9B0070C8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D11DB61E5D8B9B0070C8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z4Y3TGXRWP;
+				INFOPLIST_FILE = SMSShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengguowagnluo.www.SMSShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D11DB71E5D8B9B0070C8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z4Y3TGXRWP;
+				INFOPLIST_FILE = SMSShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengguowagnluo.www.SMSShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18D11DB91E5D8B9B0070C8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMSShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengguowagnluo.www.SMSShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSShare.app/SMSShare";
+			};
+			name = Debug;
+		};
+		18D11DBA1E5D8B9B0070C8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMSShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengguowagnluo.www.SMSShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSShare.app/SMSShare";
+			};
+			name = Release;
+		};
+		18D11DBC1E5D8B9B0070C8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMSShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengguowagnluo.www.SMSShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMSShare;
+			};
+			name = Debug;
+		};
+		18D11DBD1E5D8B9B0070C8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMSShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengguowagnluo.www.SMSShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMSShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D11D831E5D8B9A0070C8D0 /* Build configuration list for PBXProject "SMSShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D11DB31E5D8B9B0070C8D0 /* Debug */,
+				18D11DB41E5D8B9B0070C8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D11DB51E5D8B9B0070C8D0 /* Build configuration list for PBXNativeTarget "SMSShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D11DB61E5D8B9B0070C8D0 /* Debug */,
+				18D11DB71E5D8B9B0070C8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D11DB81E5D8B9B0070C8D0 /* Build configuration list for PBXNativeTarget "SMSShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D11DB91E5D8B9B0070C8D0 /* Debug */,
+				18D11DBA1E5D8B9B0070C8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D11DBB1E5D8B9B0070C8D0 /* Build configuration list for PBXNativeTarget "SMSShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D11DBC1E5D8B9B0070C8D0 /* Debug */,
+				18D11DBD1E5D8B9B0070C8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D11D801E5D8B9A0070C8D0 /* Project object */;
+}
